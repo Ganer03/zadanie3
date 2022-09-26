@@ -1,6 +1,17 @@
 body {
     margin:0;
 }
+
+#main-aside-wrapper {
+display: flex;
+}
+
+@media screen and (min-width: 800px) {
+#main-aside-wrapper {
+flex-direction: row;
+}
+}
+
 div.header1 {
     border: 3px solid rgb(1, 0, 60);
     background-color: rgb(30, 160, 180);
