@@ -44,7 +44,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#main1 #navigation a {
+#main1 nav div a {
 
     color: rgb(30, 160, 180);
     text-decoration: none;
@@ -52,7 +52,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#main1 #navigation {
+#main1 nav {
     order: 2;
     flex-direction: column;
     padding: 20px;
@@ -156,7 +156,7 @@ body {
     font-size: 60px;
 }
 
-#main1 #navigation {
+#main1 nav {
     display: flex;
     flex-direction: row;
     order: 2;
