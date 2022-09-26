@@ -1,11 +1,11 @@
-body {
-    width: 100%;
-    margin: 0;
-}
-
 #main1 {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    width: 100%;
+    margin: 0;
 }
 
 #main1 header {
@@ -19,7 +19,7 @@ body {
 #main1 div.content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #main1 #logo {
@@ -132,76 +132,74 @@ body {
     font-style: normal;
     font-size: 20px;
 }
-
 @media screen and (min-width: 800px) {
+#main1 header {
+    display: flex;
+    order: 1;
+}
 
-    #main1 header {
-        display: flex;
-        order: 1;
-    }
+#main1 div.content {
+    width: 960px;
+    margin: 0 auto;
+}
 
-    #main1 div.content {
-        width: 960px;
-        margin: 0 auto;
-    }
+#main1 #logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+}
 
-    #main1 #logo {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 100px;
-        height: 100px;
-        float: left;
-        border-radius: 50%;
-    }
+#main1 header1 {
+    font-size: 60px;
+}
 
-    #main1 header1 {
-        font-size: 60px;
-    }
+#main1 #navigation {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 960px;
+    margin: 0 auto;
+}
 
-    #main1 #navigation {
-        display: flex;
-        flex-direction: row;
-        order: 2;
-        width: 960px;
-        margin: 0 auto;
-    }
+#main1 div.list {
+    display: flex;
+    order: 3;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(30, 160, 180);
+}
 
-    #main1 div.list {
-        display: flex;
-        order: 3;
-        width: 960px;
-        margin: 0 auto;
-        background-color: rgb(30, 160, 180);
-    }
+#main1 #table1 {
+    display: flex;
+    order: 4;
+    width: 960px;
+    margin: 0 auto;
+}
 
-    #main1 #table1 {
-        display: flex;
-        order: 4;
-        width: 960px;
-        margin: 0 auto;
-    }
+#main1 table {
+    font-size: 20px;
+    width: 80%;
+}
 
-    #main1 table {
-        font-size: 20px;
-        width: 80%;
-    }
+#main1 #form {
+    display: flex;
+    order: 5;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+}
 
-    #main1 #form {
-        display: flex;
-        order: 5;
-        width: 960px;
-        margin: auto;
-        padding: 10px;
-    }
+#main1 div.footerr {
+    display: flex;
+    order: 6;
+    width: 960px;
+    margin: 0 auto;
+}
 
-    #main1 div.footerr {
-        display: flex;
-        order: 6;
-        width: 960px;
-        margin: 0 auto;
-    }
-
-    #main1 footer {
-        margin: 0 auto;
-    }
+#main1 footer {
+    margin: 0 auto;
+}
 }
