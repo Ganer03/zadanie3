@@ -16,95 +16,99 @@ flex-direction: column;
 }
 #main1 div.content { 
     display: flex;
-    align-items: right;
+    align-items: center;
+    justify-content: space-between;
 }
-#logo {
+#main1 #logo {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     float: left;
     border-radius: 50%;
 }
-header {
+#main1 header1 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 60px;
+    font-size: 40px;
 }
-h2 {
+#main1 h2 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
-#navigation a {
+#main1 #navigation a {
+    
     color: rgbrgb(30, 160, 180);
     text-decoration: none;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-#navigation {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 30px;
+#main1 #navigation {
+    order: 2;
+    flex-direction: column;
+    padding: 20px;
 }
-div.list {
-    max-width: 960px;
-    margin: 0 auto;
+#main1 div.list {
+    order: 3;
     background-color: rgb(30, 160, 180);
     padding: 10px;
 }
-div.list a {
+#main1 div.list a {
     color: rgb(95, 14, 77);
 }
-#table1 {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+
+#main1 div.list img {
+    width: 100%;
 }
-table {
+
+#main1 #table1 {
+    order: 5;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+#main1 table {
     border: 3px solid rgb(72,72,72);
     border-collapse: collapse;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
 }
-th {
+#main1 th {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
-td {
+#main1 td {
     color: rgb(15, 0, 120);
 }
-tr {
+#main1 tr {
     height: 50px;
     text-align: center;
 }
-td,tr,th {
+#main1 td,tr,th {
     border: 1px solid rgb(91, 91, 91);
 }
-tr:nth-child(odd) {
+#main1 tr:nth-child(odd) {
     background-color: rgb(5, 100, 120);
 }
-tr:nth-child(even) {
+#main1 tr:nth-child(even) {
     background-color: rgb(30, 170, 200);
 }
-#form {
-    max-width: 960px;
-    margin: auto;
+#main1 #form {
+    order: 4;
     background-color: rgb(30, 160, 180);
-    padding: 20px;
-    margin-bottom: 20px;
     margin-top: 20px;
+    padding: 10px;
 }
-div.footerr {
-    margin: 0 auto;
+#main1 div.footerr {
+    order: 6;
     background-color: rgb(30, 160, 180);
 }
-footer {
+#main1 footer {
     color:black;
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-style: normal;
@@ -119,7 +123,123 @@ footer {
 
 #main1 div.content { 
     width: 960px;
-    margin: auto;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#main1 #logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+}
+#main1 header1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+}
+        
+#main1 h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+#main1 #navigation a {
+    color: rgbrgb(30, 160, 180);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+#main1 #navigation {
+    order: 2;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#main1 div.list {
+    order: 3;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(30, 160, 180);
+    padding: 10px;
+}
+    
+#main1 div.list a {
+    color: rgb(95, 14, 77);
+}
+    
+#main1 #table1 {
+    order: 4;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    
+#main1 table {
+    border: 3px solid rgb(72,72,72);
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+    
+#main1 th {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+    
+#main1 td {
+    color: rgb(15, 0, 120);
+}
+    
+#main1 tr {
+    height: 50px;
+    text-align: center;
+}
+    
+#main1 td,tr,th {
+    border: 1px solid rgb(91, 91, 91);
+}
+    
+#main1 tr:nth-child(odd) {
+    background-color: rgb(5, 100, 120);
+}
+    
+#main1 tr:nth-child(even) {
+    background-color: rgb(30, 170, 200);
+}
+    
+#main1 #form {
+    order: 5;
+    max-width: 960px;
+    margin: auto;
+    background-color: rgb(30, 160, 180);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+#main1 div.footerr {
+    order:6;
+    margin: 0 auto;
+    background-color: rgb(30, 160, 180);
+}
+    
+#main1 footer {
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+}
 }
