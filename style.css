@@ -138,38 +138,20 @@ flex-direction: column;
     border-radius: 50%;
 }
 #main1 header1 {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: normal;
     font-size: 60px;
-}
-        
-#main1 h2 {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-    
-#main1 #navigation a {
-    color: rgbrgb(30, 160, 180);
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 }
     
 #main1 #navigation {
     order: 2;
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
-    padding: 30px;
 }
 
 #main1 div.list {
     order: 3;
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
     background-color: rgb(30, 160, 180);
-    padding: 10px;
 }
     
 #main1 div.list a {
@@ -178,49 +160,18 @@ flex-direction: column;
     
 #main1 #table1 {
     order: 4;
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
-    padding: 20px;
 }
     
 #main1 table {
-    border: 3px solid rgb(72,72,72);
-    border-collapse: collapse;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     width: 80%;
 }
-    
-#main1 th {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
-    
-#main1 td {
-    color: rgb(15, 0, 120);
-}
-    
-#main1 tr {
-    height: 50px;
-    text-align: center;
-}
-    
-#main1 td,tr,th {
-    border: 1px solid rgb(91, 91, 91);
-}
-    
-#main1 tr:nth-child(odd) {
-    background-color: rgb(5, 100, 120);
-}
-    
-#main1 tr:nth-child(even) {
-    background-color: rgb(30, 170, 200);
-}
-    
+      
 #main1 #form {
     order: 5;
-    max-width: 960px;
+    width: 960px;
     margin: auto;
     background-color: rgb(30, 160, 180);
     padding: 20px;
@@ -229,17 +180,13 @@ flex-direction: column;
 }
     
 #main1 div.footerr {
-    order:6;
+    order: 6;
+    width: 960;
     margin: 0 auto;
     background-color: rgb(30, 160, 180);
 }
     
 #main1 footer {
-    color:black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 20px;
+    margin: 0 auto;
 }
 }
