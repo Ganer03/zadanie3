@@ -1,15 +1,11 @@
 body {
+    width: 100%;
     margin:0;
 }
 
 #main-aside-wrapper {
 display: flex;
-width: 100%;
-}
-
-@media screen and (min-width: 800px) {
-#main-aside-wrapper {
-}
+flex-direction: column;
 }
 
 div.header1 {
