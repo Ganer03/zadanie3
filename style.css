@@ -177,7 +177,6 @@ body {
 }
 
 #main1 #table1 {
-    display: flex;
     order: 4;
     width: 960px;
     margin: 0 auto;
@@ -189,7 +188,6 @@ body {
 }
 
 #main1 #form {
-    display: flex;
     order: 5;
     width: 960px;
     margin: auto;
@@ -199,7 +197,7 @@ body {
 #main1 div.footerr {
     display: flex;
     order: 6;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 
