@@ -172,6 +172,10 @@ body {
     background-color: rgb(30, 160, 180);
 }
 
+#main1 div.list img {
+    width: 60%;
+}
+
 #main1 #table1 {
     display: flex;
     order: 4;
